@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="83.141" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="API Demo App" name="User perform tap functionality using TouchAction class" time="10.838">
+<system-out><![CDATA[
+Given User enter the desired capabilities...................................passed
+Given User taps on Access'ibility button....................................passed
+When User taps on Accessibility node querying...............................passed
+Then User turn on the Do taxes radio button.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="API Demo App" name="User performs click and hold functionality using longPress method" time="13.466">
+<system-out><![CDATA[
+Given User enter the desired capabilities...................................passed
+Given User clicks on views button...........................................passed
+When User clicks on Expandable Lists button.................................passed
+Then User click and holds on Custom Adapter.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="API Demo App" name="User handles the autocomplete dropdown and selects one value" time="16.483">
+<system-out><![CDATA[
+Given User enter the desired capabilities...................................passed
+Given User clicks on view button............................................passed
+When User clicks on auto-complete button....................................passed
+And User click on screen-top button.........................................passed
+Then User searches for the third option that is United states...............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Demo App" name="User handles the autocomplete dropdown and selects multiple values" time="20.999">
+<system-out><![CDATA[
+Given User enter the desired capabilities...................................passed
+Given User click on views button............................................passed
+When User click on auto-complete button.....................................passed
+And User clicks on multiple-items...........................................passed
+Then User selects multiple value from the auto-complete dropdown............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Demo App" name="User scrolls the views page" time="21.228">
+<system-out><![CDATA[
+Given User enter the desired capabilities...................................passed
+Given user opens the views page.............................................passed
+When User scrolls the page to the last......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
